@@ -1,0 +1,87 @@
+import { Trainer } from '@/types';
+
+export const trainers: Trainer[] = [
+  {
+    id: 1,
+    name: 'Rajesh Sharma',
+    role: 'Head Trainer & Bodybuilding Coach',
+    specializations: ['Bodybuilding', 'Strength Training', 'Muscle Hypertrophy'],
+    experience: '12 years',
+    certifications: ['ACSM Certified', 'NASM CPT', 'ACE Nutrition Coach'],
+    image: 'https://images.unsplash.com/photo-1567013127542-490d757e51fc?w=400&q=80',
+    bio: 'Rajesh is the cornerstone of Titan Gym. A former national-level bodybuilder, he has helped over 500 members achieve their dream physiques. His philosophy combines progressive overload with smart nutrition.',
+    social: {
+      instagram: 'rajesh_titan',
+      twitter: 'rajesh_fit',
+    },
+  },
+  {
+    id: 2,
+    name: 'Priya Desai',
+    role: 'Yoga & Functional Fitness Expert',
+    specializations: ['Yoga', 'Functional Fitness', 'Flexibility', 'Mindfulness'],
+    experience: '8 years',
+    certifications: ['RYT 500', 'FMS Certified', 'Precision Nutrition Level 1'],
+    image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&q=80',
+    bio: 'Priya blends the ancient wisdom of yoga with modern functional training. Her classes on the 3rd floor are always packed — transforming bodies and minds with her holistic approach.',
+    social: {
+      instagram: 'priya_yoga_titan',
+      linkedin: 'priyadesaifitness',
+    },
+  },
+  {
+    id: 3,
+    name: 'Arjun Patil',
+    role: 'CrossFit & Strength Coach',
+    specializations: ['CrossFit', 'Olympic Lifting', 'HIIT', 'Athletic Performance'],
+    experience: '10 years',
+    certifications: ['CrossFit Level 2', 'NSCA CSCS', 'Functional Movement Screen'],
+    image: 'https://images.unsplash.com/photo-1594381898411-846e7d193883?w=400&q=80',
+    bio: 'Arjun is a CrossFit Level 2 coach and former state-level weightlifter. His high-intensity sessions are legendary in Nashik — not for the faint-hearted, but the results speak for themselves.',
+    social: {
+      instagram: 'arjun_crossfit',
+      twitter: 'arjun_patil_fit',
+    },
+  },
+  {
+    id: 4,
+    name: 'Meera Joshi',
+    role: 'Zumba & Dance Fitness Instructor',
+    specializations: ['Zumba', 'Dance Fitness', 'Aerobics', 'Group Classes'],
+    experience: '7 years',
+    certifications: ['Zumba Licensed', 'ACE Group Fitness', 'Barre Certified'],
+    image: 'https://images.unsplash.com/photo-1545912453-5b965e3a74f5?w=400&q=80',
+    bio: 'Meera runs the most vibrant dance floor in all of Nashik! Her Zumba and dance fitness sessions on our dedicated 3rd floor bring joy and burn serious calories. 200+ regular students.',
+    social: {
+      instagram: 'meera_zumba_nashik',
+    },
+  },
+  {
+    id: 5,
+    name: 'Vikram Thakur',
+    role: 'Nutrition & Wellness Consultant',
+    specializations: ['Nutrition Planning', 'Weight Management', 'Sports Nutrition'],
+    experience: '9 years',
+    certifications: ['Registered Dietitian', 'ISSN CISSN', 'ACE Health Coach'],
+    image: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=400&q=80',
+    bio: 'Vikram believes that abs are made in the kitchen. As our resident nutrition expert, he crafts personalized meal plans that complement every training program at Titan Gym.',
+    social: {
+      instagram: 'vikram_nutrition',
+      linkedin: 'vikramthakurnutrition',
+    },
+  },
+  {
+    id: 6,
+    name: 'Kavita Nair',
+    role: 'Cardio & HIIT Specialist',
+    specializations: ['Cardio Training', 'HIIT', 'Fat Loss', 'Endurance'],
+    experience: '6 years',
+    certifications: ['NASM CPT', 'ACE HIIT Specialist', 'TRX Certified'],
+    image: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&q=80',
+    bio: 'Kavita is the queen of cardio at Titan Gym. Her HIIT classes will push your limits and shred fat at an incredible rate. She has helped over 300 members achieve sustainable fat loss.',
+    social: {
+      instagram: 'kavita_hiit',
+      twitter: 'kavita_cardio',
+    },
+  },
+];

@@ -108,7 +108,7 @@ export const mockPayments: Payment[] = [
   {
     id: 'pay_004',
     date: '2024-11-01',
-    description: 'Merchandise - Titan Gym T-shirt & Shaker',
+    description: 'Merchandise - Staunch Fitness T-shirt & Shaker',
     amount: 1200,
     status: 'paid',
     method: 'Debit Card',

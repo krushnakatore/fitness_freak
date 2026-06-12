@@ -34,7 +34,7 @@ export default function FAQPage() {
               FREQUENTLY ASKED <span className="text-primary">QUESTIONS</span>
             </h1>
             <p className="text-lg max-w-xl mx-auto" style={{ color: 'var(--muted)' }}>
-              Everything you need to know about Titan Gym. Can&apos;t find your answer? Contact us directly.
+              Everything you need to know about Staunch Fitness. Can&apos;t find your answer? Contact us directly.
             </p>
           </motion.div>
         </div>

@@ -26,7 +26,7 @@ export default function ForgotPasswordPage() {
           <div className="w-9 h-9 bg-primary rounded-xl flex items-center justify-center">
             <Dumbbell className="w-5 h-5 text-white" />
           </div>
-          <span className="font-display text-2xl tracking-wider text-foreground">TITAN <span className="text-primary">GYM</span></span>
+          <span className="font-display text-2xl tracking-wider text-foreground">STAUNCH <span className="text-primary">GYM</span></span>
         </Link>
 
         <div className="p-8 rounded-3xl border border-border" style={{ background: 'var(--surface)' }}>

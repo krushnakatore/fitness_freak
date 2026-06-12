@@ -1,8 +1,11 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
+import { useTheme } from 'next-themes';
 import { motion } from 'framer-motion';
-import { Dumbbell, MapPin, Phone, Mail, Clock, Camera, Globe, PlayCircle, MessageCircle } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Camera, Globe, PlayCircle, MessageCircle } from 'lucide-react';
 
 const footerLinks = {
   'Quick Links': [
@@ -39,6 +42,15 @@ const socialLinks = [
 ];
 
 export function Footer() {
+  const [mounted, setMounted] = useState(false);
+  const { theme } = useTheme();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  const logoSrc = mounted && theme === 'dark' ? '/staunch_fitness_white.png' : '/staunch_fitness_dark.png';
+
   return (
     <footer className="bg-surface border-t border-border" style={{ background: 'var(--surface)' }}>
       {/* Main footer */}
@@ -47,12 +59,16 @@ export function Footer() {
           {/* Brand column */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-2.5 mb-5 group w-fit">
-              <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center shadow-lg shadow-primary/30">
-                <Dumbbell className="w-5 h-5 text-white" />
-              </div>
+              <Image
+                src={logoSrc}
+                alt="Staunch Fitness logo"
+                width={40}
+                height={40}
+                className="w-10 h-10 rounded-xl object-contain"
+              />
               <div>
                 <span className="font-display text-2xl tracking-wider text-foreground">
-                  TITAN <span className="text-primary">GYM</span>
+                  Staunch Fitness
                 </span>
                 <div className="text-[9px] tracking-widest uppercase font-medium" style={{ color: 'var(--muted)' }}>
                   Nashik&apos;s Biggest Gym
@@ -68,7 +84,7 @@ export function Footer() {
               {[
                 { icon: MapPin, text: '1st Floor, Royal Complex, College Road, Nashik - 422005, Maharashtra' },
                 { icon: Phone, text: '+91 98765 43210 / +91 87654 32109' },
-                { icon: Mail, text: 'hello@titangym.in' },
+                { icon: Mail, text: 'hello@staunchfitness.in' },
                 { icon: Clock, text: 'Mon–Sat: 5:00 AM – 11:00 PM | Sun: 6:00 AM – 9:00 PM' },
               ].map(({ icon: Icon, text }) => (
                 <div key={text} className="flex items-start gap-3">
@@ -145,7 +161,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 border-t border-border">
           <p className="text-xs" style={{ color: 'var(--muted)' }}>
-            © {new Date().getFullYear()} Titan Gym, Nashik. All rights reserved.
+            © {new Date().getFullYear()} Staunch Fitness, Nashik. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             {['Privacy Policy', 'Terms of Service', 'Cookie Policy'].map((item) => (

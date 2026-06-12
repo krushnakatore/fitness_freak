@@ -40,7 +40,7 @@ export default function ContactPage() {
             {/* Contact info */}
             <div className="lg:col-span-1 space-y-5">
               <ScrollReveal>
-                <h2 className="font-heading text-2xl font-black text-foreground mb-6">Visit Titan Gym</h2>
+                <h2 className="font-heading text-2xl font-black text-foreground mb-6">Visit Staunch Fitness</h2>
               </ScrollReveal>
               {[
                 {
@@ -60,7 +60,7 @@ export default function ContactPage() {
                 {
                   icon: Mail,
                   label: 'Email',
-                  lines: ['hello@titangym.in', 'support@titangym.in'],
+                  lines: ['hello@staunchfitness.in', 'support@staunchfitness.in'],
                   color: 'text-blue-500',
                   bg: 'bg-blue-500/10',
                 },
@@ -103,7 +103,7 @@ export default function ContactPage() {
                       </div>
                       <h3 className="font-heading text-2xl font-black text-foreground mb-2">Message Sent!</h3>
                       <p className="mb-6" style={{ color: 'var(--muted)' }}>
-                        Thank you for contacting Titan Gym. Our team will get back to you within 2 hours during business hours.
+                        Thank you for contacting Staunch Fitness. Our team will get back to you within 2 hours during business hours.
                       </p>
                       <button
                         onClick={() => setSubmitted(false)}
@@ -177,7 +177,7 @@ export default function ContactPage() {
                 <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4 shadow-xl shadow-primary/30">
                   <MapPin className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="font-bold text-foreground mb-1">Titan Gym, Nashik</h3>
+                <h3 className="font-bold text-foreground mb-1">Staunch Fitness, Nashik</h3>
                 <p className="text-sm" style={{ color: 'var(--muted)' }}>1st Floor, Royal Complex, College Road, Nashik - 422005</p>
                 <a
                   href="https://maps.google.com"

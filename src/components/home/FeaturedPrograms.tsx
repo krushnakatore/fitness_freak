@@ -77,7 +77,7 @@ export function FeaturedPrograms() {
           badge="Our Programs"
           title="Train Like a"
           titleHighlight="Champion"
-          subtitle="9 world-class programs across 3 dedicated floors. Whatever your fitness goal, Titan Gym has the perfect program to get you there faster."
+          subtitle="9 world-class programs across 3 dedicated floors. Whatever your fitness goal, Staunch Fitness has the perfect program to get you there faster."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

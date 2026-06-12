@@ -38,7 +38,7 @@ export default function BlogPage() {
               FITNESS <span className="text-primary">KNOWLEDGE</span>
             </h1>
             <p className="text-lg max-w-xl mx-auto" style={{ color: 'var(--muted)' }}>
-              Expert tips, nutrition guides, and workout programs from Titan&apos;s certified trainers.
+              Expert tips, nutrition guides, and workout programs from Staunch&apos;s certified trainers.
             </p>
           </motion.div>
         </div>

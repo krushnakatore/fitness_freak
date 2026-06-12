@@ -9,7 +9,7 @@ export const trainers: Trainer[] = [
     experience: '12 years',
     certifications: ['ACSM Certified', 'NASM CPT', 'ACE Nutrition Coach'],
     image: 'https://images.unsplash.com/photo-1567013127542-490d757e51fc?w=400&q=80',
-    bio: 'Rajesh is the cornerstone of Titan Gym. A former national-level bodybuilder, he has helped over 500 members achieve their dream physiques. His philosophy combines progressive overload with smart nutrition.',
+    bio: 'Rajesh is the cornerstone of Staunch Fitness. A former national-level bodybuilder, he has helped over 500 members achieve their dream physiques. His philosophy combines progressive overload with smart nutrition.',
     social: {
       instagram: 'rajesh_titan',
       twitter: 'rajesh_fit',
@@ -64,7 +64,7 @@ export const trainers: Trainer[] = [
     experience: '9 years',
     certifications: ['Registered Dietitian', 'ISSN CISSN', 'ACE Health Coach'],
     image: 'https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=400&q=80',
-    bio: 'Vikram believes that abs are made in the kitchen. As our resident nutrition expert, he crafts personalized meal plans that complement every training program at Titan Gym.',
+    bio: 'Vikram believes that abs are made in the kitchen. As our resident nutrition expert, he crafts personalized meal plans that complement every training program at Staunch Fitness.',
     social: {
       instagram: 'vikram_nutrition',
       linkedin: 'vikramthakurnutrition',
@@ -78,7 +78,7 @@ export const trainers: Trainer[] = [
     experience: '6 years',
     certifications: ['NASM CPT', 'ACE HIIT Specialist', 'TRX Certified'],
     image: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&q=80',
-    bio: 'Kavita is the queen of cardio at Titan Gym. Her HIIT classes will push your limits and shred fat at an incredible rate. She has helped over 300 members achieve sustainable fat loss.',
+    bio: 'Kavita is the queen of cardio at Staunch Fitness. Her HIIT classes will push your limits and shred fat at an incredible rate. She has helped over 300 members achieve sustainable fat loss.',
     social: {
       instagram: 'kavita_hiit',
       twitter: 'kavita_cardio',

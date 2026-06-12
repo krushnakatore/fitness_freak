@@ -3,14 +3,14 @@ import { FAQ } from '@/types';
 export const faqs: FAQ[] = [
   {
     id: 1,
-    question: 'What are Titan Gym\'s operating hours?',
-    answer: 'Titan Gym is open Monday to Saturday from 5:00 AM to 11:00 PM, and Sunday from 6:00 AM to 9:00 PM. Our trainers are available during all operating hours. Some early morning CrossFit and HIIT classes start at 5:00 AM.',
+    question: 'What are Staunch Fitness\'s operating hours?',
+    answer: 'Staunch Fitness is open Monday to Saturday from 5:00 AM to 11:00 PM, and Sunday from 6:00 AM to 9:00 PM. Our trainers are available during all operating hours. Some early morning CrossFit and HIIT classes start at 5:00 AM.',
     category: 'General',
   },
   {
     id: 2,
-    question: 'How many floors does Titan Gym have and what is on each floor?',
-    answer: 'Titan Gym is Nashik\'s largest gym with 3 full floors: Floor 1 is our Cardio & Functional Zone featuring 40+ cardio machines, CrossFit equipment, and functional training area. Floor 2 is our Weight Training & Personal Training Zone with 200+ weights, machines, and dedicated PT rooms. Floor 3 is our exclusive Dance & Wellness Studio — the largest in Nashik — featuring a professional dance floor, dedicated Zumba studio, and serene yoga space.',
+    question: 'How many floors does Staunch Fitness have and what is on each floor?',
+    answer: 'Staunch Fitness is Nashik\'s largest gym with 3 full floors: Floor 1 is our Cardio & Functional Zone featuring 40+ cardio machines, CrossFit equipment, and functional training area. Floor 2 is our Weight Training & Personal Training Zone with 200+ weights, machines, and dedicated PT rooms. Floor 3 is our exclusive Dance & Wellness Studio — the largest in Nashik — featuring a professional dance floor, dedicated Zumba studio, and serene yoga space.',
     category: 'Facilities',
   },
   {
@@ -28,7 +28,7 @@ export const faqs: FAQ[] = [
   {
     id: 5,
     question: 'Do I need prior experience to join?',
-    answer: 'No prior experience needed whatsoever! Titan Gym welcomes everyone from complete beginners to advanced athletes. All our programs have beginner-friendly options and our trainers will ensure you start at the right level. We have members aged 16 to 65+ all thriving together.',
+    answer: 'No prior experience needed whatsoever! Staunch Fitness welcomes everyone from complete beginners to advanced athletes. All our programs have beginner-friendly options and our trainers will ensure you start at the right level. We have members aged 16 to 65+ all thriving together.',
     category: 'General',
   },
   {
@@ -46,7 +46,7 @@ export const faqs: FAQ[] = [
   {
     id: 8,
     question: 'Is there a parking facility?',
-    answer: 'Yes, Titan Gym has a large dedicated parking area with space for 100+ vehicles including a separate two-wheeler parking zone. Parking is completely free for all members. We also have secure bicycle parking.',
+    answer: 'Yes, Staunch Fitness has a large dedicated parking area with space for 100+ vehicles including a separate two-wheeler parking zone. Parking is completely free for all members. We also have secure bicycle parking.',
     category: 'Facilities',
   },
   {
@@ -64,7 +64,7 @@ export const faqs: FAQ[] = [
   {
     id: 11,
     question: 'Are there separate facilities for men and women?',
-    answer: 'Titan Gym has fully equipped separate locker rooms, change rooms, and shower facilities for men and women on every floor. We also have a dedicated ladies\' zone on Floor 2 for members who prefer a more private training environment.',
+    answer: 'Staunch Fitness has fully equipped separate locker rooms, change rooms, and shower facilities for men and women on every floor. We also have a dedicated ladies\' zone on Floor 2 for members who prefer a more private training environment.',
     category: 'Facilities',
   },
   {

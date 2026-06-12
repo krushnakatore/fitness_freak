@@ -39,7 +39,7 @@ export default function SignInPage() {
             <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
               <Dumbbell className="w-6 h-6 text-white" />
             </div>
-            <span className="font-display text-3xl tracking-wider text-white">TITAN <span className="text-primary">GYM</span></span>
+            <span className="font-display text-3xl tracking-wider text-white">STAUNCH <span className="text-primary">GYM</span></span>
           </div>
           <h2 className="font-display text-5xl text-white tracking-wide mb-4">WELCOME<br /><span className="text-primary">BACK</span></h2>
           <p className="text-white/70 text-lg max-w-md">
@@ -62,7 +62,7 @@ export default function SignInPage() {
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                 <Dumbbell className="w-4 h-4 text-white" />
               </div>
-              <span className="font-display text-xl tracking-wider text-foreground">TITAN <span className="text-primary">GYM</span></span>
+              <span className="font-display text-xl tracking-wider text-foreground">STAUNCH <span className="text-primary">GYM</span></span>
             </Link>
             <h1 className="font-heading text-3xl font-black text-foreground mb-1">Sign In</h1>
             <p className="text-sm" style={{ color: 'var(--muted)' }}>Enter your credentials to access your account</p>
@@ -135,7 +135,7 @@ export default function SignInPage() {
           </form>
 
           <p className="text-center text-sm mt-6" style={{ color: 'var(--muted)' }}>
-            New to Titan Gym?{' '}
+            New to Staunch Fitness?{' '}
             <Link href="/auth/signup" className="text-primary font-semibold hover:underline">Join Now — Free Trial</Link>
           </p>
         </div>

@@ -56,7 +56,7 @@ export const blogPosts: BlogPost[] = [
   {
     id: 5,
     title: '10 CrossFit Workouts That Will Transform Your Body in 30 Days',
-    excerpt: 'Ready to take your fitness to elite levels? These CrossFit WODs from Titan\'s training floor will push every limit and deliver results that shock you.',
+    excerpt: 'Ready to take your fitness to elite levels? These CrossFit WODs from Staunch\'s training floor will push every limit and deliver results that shock you.',
     content: '',
     author: 'Arjun Patil',
     authorImage: 'https://images.unsplash.com/photo-1594381898411-846e7d193883?w=100&q=80',

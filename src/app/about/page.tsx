@@ -8,7 +8,7 @@ import { ScrollReveal } from '@/components/ui/ScrollReveal';
 import { Counter } from '@/components/ui/Counter';
 
 const achievements = [
-  { year: '2017', title: 'Founded', desc: 'Titan Gym opened its doors with Floor 1' },
+  { year: '2017', title: 'Founded', desc: 'Staunch Fitness opened its doors with Floor 1' },
   { year: '2019', title: 'Floor 2 Launch', desc: 'Expanded to include full weight training zone' },
   { year: '2021', title: 'Floor 3 & Dance Studio', desc: "Nashik's first dedicated dance fitness floor" },
   { year: '2023', title: 'Best Gym Award', desc: "Voted Nashik's #1 gym by Times of India" },
@@ -17,7 +17,7 @@ const achievements = [
 
 const values = [
   { icon: Target, title: 'Results-First Philosophy', desc: 'Every program, every trainer, every piece of equipment is selected with one goal: your results.' },
-  { icon: Users, title: 'Community-Driven', desc: 'At Titan, you join a tribe. Our members celebrate each other\'s wins and push through challenges together.' },
+  { icon: Users, title: 'Community-Driven', desc: 'At Staunch, you join a tribe. Our members celebrate each other\'s wins and push through challenges together.' },
   { icon: Award, title: 'Excellence in Everything', desc: 'From clean locker rooms to certified trainers — we settle for nothing less than the best.' },
   { icon: Building2, title: 'World-Class Facility', desc: '15,000 sq ft of premium fitness infrastructure built to international standards.' },
 ];
@@ -44,7 +44,7 @@ export default function AboutPage() {
             <span className="inline-block px-4 py-1.5 bg-primary/20 border border-primary/40 text-primary text-xs font-semibold tracking-widest uppercase rounded-full mb-4">
               Our Story
             </span>
-            <h1 className="font-display text-6xl md:text-8xl text-white tracking-wide mb-4">ABOUT TITAN GYM</h1>
+            <h1 className="font-display text-6xl md:text-8xl text-white tracking-wide mb-4">ABOUT STAUNCH FITNESS</h1>
             <p className="text-white/70 text-lg max-w-2xl mx-auto">
               Built from passion, driven by purpose. Discover the story behind Nashik&apos;s most iconic fitness destination.
             </p>
@@ -60,7 +60,7 @@ export default function AboutPage() {
               <div className="relative">
                 <img
                   src="https://images.unsplash.com/photo-1577221084712-45b0445d2b00?w=600&q=80"
-                  alt="Titan Gym founding story"
+                  alt="Staunch Fitness founding story"
                   className="w-full rounded-3xl object-cover h-96"
                 />
                 <div className="absolute -bottom-6 -right-6 bg-primary text-white p-6 rounded-2xl shadow-xl shadow-primary/30">
@@ -81,13 +81,13 @@ export default function AboutPage() {
                   In 2017, Suresh Nashikar had a simple but powerful vision: Nashik deserved a world-class gym. Not just a room full of equipment, but a complete fitness ecosystem where every person — from the housewife to the professional athlete — could achieve their best.
                 </p>
                 <p>
-                  Starting with just Floor 1 and a team of 3 trainers, Titan Gym quickly became the talk of the city. The results members were getting were undeniable. By 2019, demand forced us to expand to Floor 2, adding a complete weight training zone.
+                  Starting with just Floor 1 and a team of 3 trainers, Staunch Fitness quickly became the talk of the city. The results members were getting were undeniable. By 2019, demand forced us to expand to Floor 2, adding a complete weight training zone.
                 </p>
                 <p>
                   The real game-changer came in 2021 — Floor 3. We built Nashik&apos;s first dedicated dance and wellness studio, combining a professional Zumba floor, dance studio, and serene yoga space. It was an overnight sensation.
                 </p>
                 <p>
-                  Today, Titan Gym spans 15,000 sq ft across 3 floors with 5000+ active members, 12+ certified trainers, and a legacy of 500+ documented transformation stories. We&apos;re not just Nashik&apos;s biggest gym — we&apos;re its best.
+                  Today, Staunch Fitness spans 15,000 sq ft across 3 floors with 5000+ active members, 12+ certified trainers, and a legacy of 500+ documented transformation stories. We&apos;re not just Nashik&apos;s biggest gym — we&apos;re its best.
                 </p>
               </div>
             </ScrollReveal>
@@ -117,7 +117,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="font-heading text-2xl font-black text-foreground mb-3">Our Vision</h3>
                 <p className="leading-relaxed" style={{ color: 'var(--muted)' }}>
-                  A Nashik where every individual has access to premium fitness infrastructure and expert guidance. We envision Titan Gym growing into Maharashtra&apos;s most recognized fitness brand, setting standards for the entire Indian fitness industry.
+                  A Nashik where every individual has access to premium fitness infrastructure and expert guidance. We envision Staunch Fitness growing into Maharashtra&apos;s most recognized fitness brand, setting standards for the entire Indian fitness industry.
                 </p>
               </div>
             </ScrollReveal>
@@ -259,7 +259,7 @@ export default function AboutPage() {
       {/* Leadership team */}
       <section className="section-padding" style={{ background: 'var(--background)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeader badge="Our Team" title="The People Behind" titleHighlight="Titan" />
+          <SectionHeader badge="Our Team" title="The People Behind" titleHighlight="Staunch" />
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {team.map((t, i) => (
               <ScrollReveal key={t.name} delay={i * 0.1}>
@@ -288,7 +288,7 @@ export default function AboutPage() {
               BE PART OF THE <span className="text-primary">LEGEND</span>
             </h2>
             <p className="mb-8" style={{ color: 'var(--muted)' }}>
-              Join 5000+ members who chose Titan Gym. Your first day is free — no strings attached.
+              Join 5000+ members who chose Staunch Fitness. Your first day is free — no strings attached.
             </p>
             <Link href="/auth/signup">
               <motion.button
@@ -296,7 +296,7 @@ export default function AboutPage() {
                 whileTap={{ scale: 0.97 }}
                 className="inline-flex items-center gap-2 px-10 py-4 bg-primary text-white font-bold rounded-full hover:bg-primary-dark transition-all shadow-lg shadow-primary/30 text-lg"
               >
-                Join Titan Gym <ArrowRight className="w-5 h-5" />
+                Join Staunch Fitness <ArrowRight className="w-5 h-5" />
               </motion.button>
             </Link>
           </ScrollReveal>

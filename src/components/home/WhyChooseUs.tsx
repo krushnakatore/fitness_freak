@@ -97,10 +97,10 @@ export function WhyChooseUs() {
           {/* Right: Content */}
           <div className="order-1 lg:order-2">
             <SectionHeader
-              badge="Why Choose Titan"
+              badge="Why Choose Staunch"
               title="Nashik's Most"
               titleHighlight="Premium Gym"
-              subtitle="We don't just offer a gym — we offer a transformation ecosystem. See why 5000+ members chose Titan over every other option in Nashik."
+              subtitle="We don't just offer a gym — we offer a transformation ecosystem. See why 5000+ members chose Staunch over every other option in Nashik."
               center={false}
             />
 

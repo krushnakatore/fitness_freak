@@ -141,7 +141,7 @@ export default function TrainersPage() {
               TRAIN WITH THE <span className="text-primary">BEST</span>
             </h2>
             <p className="mb-8" style={{ color: 'var(--muted)' }}>
-              Are you a certified fitness professional? Join the Titan Gym family of trainers and impact thousands of lives.
+              Are you a certified fitness professional? Join the Staunch Fitness family of trainers and impact thousands of lives.
             </p>
             <Link href="/contact">
               <motion.button

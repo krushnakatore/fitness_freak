@@ -1,11 +1,12 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTheme } from 'next-themes';
-import { Sun, Moon, Menu, X, Dumbbell, ChevronDown } from 'lucide-react';
+import { Sun, Moon, Menu, X, ChevronDown } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/Button';
 
@@ -33,6 +34,7 @@ export function Navbar() {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
+  const logoSrc = mounted && theme === 'dark' ? '/staunch_fitness_white.png' : '/staunch_fitness_dark.png';
 
   useEffect(() => {
     setMounted(true);
@@ -61,13 +63,17 @@ export function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 md:h-20">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2.5 group">
-              <div className="w-9 h-9 bg-primary rounded-xl flex items-center justify-center shadow-lg shadow-primary/30 group-hover:scale-110 transition-transform duration-300">
-                <Dumbbell className="w-5 h-5 text-white" />
-              </div>
+            <Link href="/" className="flex items-center gap-3 group">
+              <Image
+                src={logoSrc}
+                alt="Staunch Fitness logo"
+                width={42}
+                height={42}
+                className="w-9 h-9 rounded-xl object-contain"
+              />
               <div>
                 <span className="font-display text-2xl tracking-wider text-foreground">
-                  TITAN <span className="text-primary">GYM</span>
+                  Staunch Fitness
                 </span>
                 <div className="text-[9px] text-muted tracking-widest uppercase -mt-0.5 font-medium" style={{ color: 'var(--muted)' }}>
                   Nashik&apos;s Biggest Gym
@@ -213,10 +219,14 @@ export function Navbar() {
             <div className="absolute right-0 top-0 bottom-0 w-80 bg-surface border-l border-border shadow-2xl flex flex-col" style={{ background: 'var(--surface)' }}>
               <div className="h-16 md:h-20 border-b border-border flex items-center px-6">
                 <Link href="/" className="flex items-center gap-2.5">
-                  <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                    <Dumbbell className="w-4 h-4 text-white" />
-                  </div>
-                  <span className="font-display text-xl tracking-wider">TITAN <span className="text-primary">GYM</span></span>
+                  <Image
+                    src={logoSrc}
+                    alt="Staunch Fitness logo"
+                    width={32}
+                    height={32}
+                    className="w-8 h-8 rounded-lg object-contain"
+                  />
+                  <span className="font-display text-xl tracking-wider">Staunch Fitness</span>
                 </Link>
               </div>
               <div className="flex-1 overflow-y-auto py-6 px-4">

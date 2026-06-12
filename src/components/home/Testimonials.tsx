@@ -19,7 +19,7 @@ export function Testimonials() {
           badge="Success Stories"
           title="Real People,"
           titleHighlight="Real Results"
-          subtitle="5000+ members have transformed their lives at Titan Gym. Here's what they have to say."
+          subtitle="5000+ members have transformed their lives at Staunch Fitness. Here's what they have to say."
         />
 
         {/* Featured testimonial */}

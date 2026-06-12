@@ -64,7 +64,7 @@ export default function SignUpPage() {
             <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
               <Dumbbell className="w-6 h-6 text-white" />
             </div>
-            <span className="font-display text-3xl tracking-wider text-white">TITAN <span className="text-primary">GYM</span></span>
+            <span className="font-display text-3xl tracking-wider text-white">STAUNCH <span className="text-primary">GYM</span></span>
           </div>
           <h2 className="font-display text-5xl text-white tracking-wide mb-4">BEGIN YOUR<br /><span className="text-primary">LEGEND</span></h2>
           <p className="text-white/70 text-lg mb-8 max-w-md">Join 5000+ members who are already transforming their lives at Nashik&apos;s biggest gym.</p>
@@ -90,7 +90,7 @@ export default function SignUpPage() {
               <div className="w-24 h-24 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6 border-2 border-primary">
                 <Check className="w-12 h-12 text-primary" />
               </div>
-              <h2 className="font-display text-4xl text-foreground tracking-wide mb-2">WELCOME TO<br /><span className="text-primary">TITAN GYM!</span></h2>
+              <h2 className="font-display text-4xl text-foreground tracking-wide mb-2">WELCOME TO<br /><span className="text-primary">STAUNCH FITNESS!</span></h2>
               <p className="mb-8" style={{ color: 'var(--muted)' }}>
                 Your account is created. Time to forge your legend. Our team will contact you within 24 hours to confirm your membership and schedule your first session.
               </p>
@@ -107,7 +107,7 @@ export default function SignUpPage() {
                   <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                     <Dumbbell className="w-4 h-4 text-white" />
                   </div>
-                  <span className="font-display text-xl tracking-wider text-foreground">TITAN <span className="text-primary">GYM</span></span>
+                  <span className="font-display text-xl tracking-wider text-foreground">STAUNCH <span className="text-primary">GYM</span></span>
                 </Link>
                 <div className="flex items-center gap-3 mb-6">
                   {[1, 2, 3].map((s) => (

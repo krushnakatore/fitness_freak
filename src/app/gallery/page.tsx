@@ -60,7 +60,7 @@ export default function GalleryPage() {
       {/* Facility gallery */}
       <section className="section-padding" style={{ background: 'var(--background)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeader badge="Our Facility" title="The" titleHighlight="Titan Experience" />
+          <SectionHeader badge="Our Facility" title="The" titleHighlight="Staunch Experience" />
           <div className="flex gap-2 overflow-x-auto pb-4 mb-8">
             {galCategories.map((cat) => (
               <button
@@ -129,7 +129,7 @@ export default function GalleryPage() {
       {/* Transformations */}
       <section className="section-padding" style={{ background: 'var(--surface)' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeader badge="Transformations" title="Before &" titleHighlight="After" subtitle="Real members, real results. These transformations happened right here at Titan Gym, Nashik." />
+          <SectionHeader badge="Transformations" title="Before &" titleHighlight="After" subtitle="Real members, real results. These transformations happened right here at Staunch Fitness, Nashik." />
           <div className="flex gap-2 overflow-x-auto pb-4 mb-8">
             {transCategories.map((cat) => (
               <button

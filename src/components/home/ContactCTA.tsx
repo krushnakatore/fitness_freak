@@ -26,7 +26,7 @@ export function ContactCTA() {
             <span className="text-primary">STARTS NOW</span>
           </h2>
           <p className="text-white/70 text-lg max-w-xl mx-auto mb-10 leading-relaxed">
-            Stop waiting for the perfect moment. Come visit Titan Gym today — your free 1-day trial is waiting for you. Walk in, and walk out a changed person.
+            Stop waiting for the perfect moment. Come visit Staunch Fitness today — your free 1-day trial is waiting for you. Walk in, and walk out a changed person.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/auth/signup">

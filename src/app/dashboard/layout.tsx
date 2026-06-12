@@ -30,7 +30,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                 <Dumbbell className="w-4 h-4 text-white" />
               </div>
-              <span className="font-display text-xl tracking-wider text-foreground">TITAN <span className="text-primary">GYM</span></span>
+              <span className="font-display text-xl tracking-wider text-foreground">STAUNCH <span className="text-primary">GYM</span></span>
             </Link>
           </div>
 
@@ -94,7 +94,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                     <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                       <Dumbbell className="w-4 h-4 text-white" />
                     </div>
-                    <span className="font-display text-xl tracking-wider text-foreground">TITAN <span className="text-primary">GYM</span></span>
+                    <span className="font-display text-xl tracking-wider text-foreground">STAUNCH <span className="text-primary">GYM</span></span>
                   </Link>
                   <button onClick={() => setSidebarOpen(false)} className="text-foreground/60 hover:text-foreground">
                     <X className="w-5 h-5" />

@@ -34,7 +34,7 @@ export function Navbar() {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
-  const logoSrc = mounted && theme === 'dark' ? '/staunch_fitness_white.png' : '/staunch_fitness_dark.png';
+  const logoSrc = mounted && theme === 'dark' ? '/staunch_fitness_dark_02.png' : '/staunch_fitness_dark_02.png';
 
   useEffect(() => {
     setMounted(true);

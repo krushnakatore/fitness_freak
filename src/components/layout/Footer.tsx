@@ -49,7 +49,7 @@ export function Footer() {
     setMounted(true);
   }, []);
 
-  const logoSrc = mounted && theme === 'dark' ? '/staunch_fitness_white.png' : '/staunch_fitness_dark.png';
+  const logoSrc = mounted && theme === 'dark' ? '/staunch_fitness_dark_02.png' : '/staunch_fitness_dark_02.png';
 
   return (
     <footer className="bg-surface border-t border-border" style={{ background: 'var(--surface)' }}>
